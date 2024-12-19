@@ -1,0 +1,29 @@
+package TravelandTourism;
+
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.sql.*;
+import javax.swing.*;
+import java.awt.*;
+
+public class View_Booked_Package extends JFrame implements ActionListener{
+
+	View_Booked_Package(){
+		
+		setLayout(null);
+		setVisible(true);
+		
+	}
+	public static void main(String[] args) {
+		View_Booked_Package obj = new View_Booked_Package();
+		
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

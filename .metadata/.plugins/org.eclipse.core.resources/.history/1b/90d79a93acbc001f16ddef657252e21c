@@ -1,0 +1,53 @@
+package TravelandTourism;
+
+import java.sql.*;
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+public class Paytm extends JFrame implements ActionListener{
+
+	JButton back;
+	JEditorPane pane ;
+	Paytm(){
+		
+		setLayout(null);
+		
+		pane = new JEditorPane();
+		pane.setEditable(false);
+		
+		try {
+			pane.setPage("www.nike.com");
+			
+		}catch(Exception e) {
+			pane.setContentType("text/html");
+			pane.setText("<html>Failed due to error!! Please try again after some time!!!");
+			e.printStackTrace();
+		}
+		
+		JScrollPane jp = new JScrollPane(pane);
+		getContentPane().add(jp);
+		
+		back = new JButton("BACK");
+		back.setBounds(600,40,100,40);
+		back.setFont(new Font("Tahoma" , Font.BOLD , 16));
+		back.addActionListener(this);
+		pane.add(back);
+		
+		setBounds(350 , 180 , 870 ,625 );
+		setVisible(true);
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Paytm obj = new Paytm();
+
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

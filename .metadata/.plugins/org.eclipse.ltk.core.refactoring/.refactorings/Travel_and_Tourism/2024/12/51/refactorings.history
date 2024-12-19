@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;TravelandTourism.View_Booked_Hotel.java&apos; to &apos;View_Booked_Package.java&apos;&#x0D;&#x0A;- Original project: &apos;Travel_and_Tourism&apos;&#x0D;&#x0A;- Original element: &apos;TravelandTourism.View_Booked_Hotel.java&apos;&#x0D;&#x0A;- Renamed element: &apos;TravelandTourism.View_Booked_Package.java&apos;" description="Rename compilation unit &apos;View_Booked_Hotel.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;TravelandTourism{View_Booked_Hotel.java" name="View_Booked_Package.java" references="false" stamp="1734378342356" version="1.0"/>
+</session>
