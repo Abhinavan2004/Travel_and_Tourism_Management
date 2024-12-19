@@ -53,7 +53,7 @@ This project, developed in Java, is a comprehensive Travel and Tourism Managemen
 ### **How to Run the Project**  
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/Abhinavan2004/JAVA_PROJECT.git
+   git clone https://abhinavan2004.github.io/Travel_and_Tourism_Management/
 2. Open the project in Eclipse IDE.
 3. Configure the database connection in the code (MySQL database credentials).
 4. Run the main class to launch the application.
