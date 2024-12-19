@@ -1,37 +1,61 @@
 # JAVA_PROJECT
 
-### Developers:
-- Suhani Bajoria  
-- Ved Jaiswal  
-- Sujal Kesharwani  
-- Abhinav Anpan  
+### **Developer**  
+- **Abhinav Anpan**
 
 ---
 
-### Work to be Done:  
-1. **Login Page (Combo Wala)** - Suhani  
-2. **Signup Page (Combo Wala)** - Abhinav  
-3. **Forgot Password** - Sujal  
-4. **Loading Page** - Ved  
-5. **Dashboard Page (Homepage)** - Suhani  
-6. **Add Personal Details** - Abhinav  
-7. **Update Personal Details** - Sujal  
-8. **View Details** - Ved  
-9. **Delete Personal Details** - Suhani  
-10. **Check Package** - Abhinav  
-11. **Book Package** - Sujal  
-12. **View Package** - Ved  
-13. **View Hotels** - Suhani  
-14. **Book Hotel** - Abhinav  
-15. **View Booked Hotel** - Sujal  
-16. **Destinations** - Ved  
+### **Project Overview**  
+This project, developed in Java, is a comprehensive Travel and Tourism Management System. It includes features for users to manage personal details, book packages and hotels, and view destinations, among other functionalities. Designed with a focus on user-friendly navigation, the system ensures a seamless experience for both users and administrators.
 
 ---
 
-### Additional Features:  
-17. **Payment**  
-18. **About**  
+### **Features**  
+1. **Authentication System**  
+   - Login Page  
+   - Signup Page  
+   - Forgot Password  
+
+2. **User Dashboard**  
+   - View Dashboard (Homepage)  
+   - Add Personal Details  
+   - Update Personal Details  
+   - Delete Personal Details  
+   - View Personal Details  
+
+3. **Travel Package Management**  
+   - Check Available Packages  
+   - Book Package  
+   - View Booked Packages  
+
+4. **Hotel Management**  
+   - View Hotels  
+   - Book Hotel  
+   - View Booked Hotels  
+
+5. **Destinations**  
+   - Explore Various Destinations  
+
+6. **Additional Features**  
+   - Payment Integration  
+   - About Page  
 
 ---
 
-**Note:** Each developer should ensure their assigned tasks are properly integrated and functional. Test thoroughly for consistency across all features.
+### **Technical Stack**  
+- **Frontend**: Java Swing and AWT  
+- **Backend**: Core Java  
+- **Database**: MySQL  
+- **Development IDE**: Eclipse  
+
+---
+
+### **How to Run the Project**  
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/Abhinavan2004/JAVA_PROJECT.git
+2. Open the project in Eclipse IDE.
+3. Configure the database connection in the code (MySQL database credentials).
+4. Run the main class to launch the application.
+
+---
