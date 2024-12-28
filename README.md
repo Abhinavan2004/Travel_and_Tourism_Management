@@ -1,4 +1,4 @@
-# JAVA_PROJECT
+# Travel and Tourism Management
 
 ### **Developer**  
 - **Abhinav Anpan**
