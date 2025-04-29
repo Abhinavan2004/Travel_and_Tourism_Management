@@ -1,9 +1,0 @@
-package TravelandTourism;
-
-public class View_Booked_Hotel {
-
-	public static void main(String[] args) {
-		View_Booked_H
-	}
-
-}
