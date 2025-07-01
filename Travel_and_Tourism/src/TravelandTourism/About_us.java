@@ -15,7 +15,7 @@ public class About_us extends JFrame implements ActionListener{
 	About_us(){
 		setLayout(null);
 		
-        setBounds(450 , 180 , 790 ,525 );
+        setBounds(450 , 180 , 9000 ,525 );
 		
 		heading = new JLabel("ABOUT  US");
 		heading.setFont(new Font("Tahoma" , Font.BOLD , 32));
@@ -23,7 +23,7 @@ public class About_us extends JFrame implements ActionListener{
 	    heading.setBounds(300,0,600,50);
 	    add(heading);
 	    
-	    String aa ="The objective of the Travel and Tourism Management System project is to develop a system that automates the processes and \nactivities of a travel agency. The purpose is to design a system using which one can perform all operations related to traveling.\r\n"
+	    String aa ="The objective of the Travel and Tourism Management System project is to develop a system /n that automates the processes and activities of a travel agency. The purpose is to design a system using which one can perform all operations related to traveling.\r\n"
 	    		+ "\r\n"
 	    		+ "This application will help in accessing the information related to the travel to the particular destination with great ease. The users \ncan track the information related to their tours with great ease through this application. The travel agency information can also be obtained through this application.\r\n"
 	    		+ "\r\n"
@@ -47,7 +47,7 @@ public class About_us extends JFrame implements ActionListener{
 	    back = new JButton("BACK");
 	    back.setFont(new Font("Tahoma", Font.BOLD, 14));
         back.addActionListener(this);
-        back.setBounds(330	 , 420 , 100 ,30);
+        back.setBounds(330, 420 , 100 ,30);
         back.setBackground(Color.black);
         back.setForeground(Color.white);
         

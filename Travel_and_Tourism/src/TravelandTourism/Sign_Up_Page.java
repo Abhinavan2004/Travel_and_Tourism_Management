@@ -99,13 +99,13 @@ public class Sign_Up_Page extends JFrame implements ActionListener {
 
         try {
             // Load and scale the image
-            ImageIcon imageIcon = new ImageIcon("D:\\JAVA_PROJECTS\\Travel_and_Tourism\\Travel_and_Tourism\\src\\Login.png");
-            Image scaledImage = imageIcon.getImage().getScaledInstance(300, 300, Image.SCALE_SMOOTH);
-            ImageIcon scaledIcon = new ImageIcon(scaledImage);
+//            ImageIcon imageIcon = new ImageIcon("D:\\JAVA_PROJECTS\\Travel_and_Tourism\\Travel_and_Tourism\\src\\Login.png" );
+//            Image scaledImage = imageIcon.getImage().getScaledInstance(300, 300, Image.SCALE_SMOOTH);
+//            ImageIcon scaledIcon = new ImageIcon(scaledImage);
 
-            JLabel imageLabel = new JLabel(scaledIcon);
-            imageLabel.setBounds(7, 100, 300, 300); // Centered image
-            imagePanel.add(imageLabel);
+//            JLabel imageLabel = new JLabel(scaledIcon);
+//            imageLabel.setBounds(7, 100, 300, 300); // Centered image
+//            imagePanel.add(imageLabel);
         } catch (Exception e) {
             JLabel errorLabel = new JLabel("Image not found", JLabel.CENTER);
             errorLabel.setBounds(50, 200, 200, 30);

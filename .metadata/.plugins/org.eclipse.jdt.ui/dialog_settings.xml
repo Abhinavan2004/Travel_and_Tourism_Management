@@ -2,7 +2,7 @@
 <section name="Workbench">
 	<item key="org.eclipse.jdt.ui.last.selected.jre.kind2" value="2"/>
 	<item key="org.eclipse.jdt.ui.last.selected.execution.enviroment" value="JavaSE-22"/>
-	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\mysql-connector-j-9.0.0"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="D:\mysql-connector-j-9.3.0\mysql-connector-j-9.3.0"/>
 	<item key="delegateUpdating" value="false"/>
 	<item key="SearchScopeActionGroup.search_scope_type" value="1"/>
 	<item key="CallHierarchyViewPart.call_mode" value="0"/>
@@ -11,6 +11,8 @@
 	<item key="CallHierarchyViewPart.orientation" value="3"/>
 	<item key="CallHierarchyViewPart.ratio1" value="500"/>
 	<item key="CallHierarchyViewPart.ratio0" value="500"/>
+	<item key="UserLibraryLoadSaveDialog.size" value="640,680"/>
+	<item key="org.eclipse.jdt.ui.last.external.project" value="D:\Abhinav_Eclipse\Practice_ke_liye_2.0"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
 		<item key="layout" value="2"/>
@@ -59,7 +61,7 @@
 		<item key="pageIndex" value="2"/>
 	</section>
 	<section name="ClasspathContainerSelectionPage">
-		<item key="index" value="0"/>
+		<item key="index" value="8"/>
 	</section>
 	<section name="SearchInDialog">
 		<item key="SearchInSources" value="true"/>
