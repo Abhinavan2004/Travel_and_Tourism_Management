@@ -111,8 +111,8 @@ public class Add_Personal_Details extends JFrame implements ActionListener {
         back.setBounds(x2 + 100, y, 80, height);
 
         // Image Panel (35% of Width)
-        try {
-        	ImageIcon imageIcon = new ImageIcon("D:\\JAVA_PROJECTS\\Travel_and_Tourism\\Travel_and_Tourism\\src\\account.png");
+        try {    		
+        	ImageIcon imageIcon = new ImageIcon(ClassLoader.getSystemResource("account.png"));
         	Image i2 = imageIcon.getImage().getScaledInstance(450, 250, Image.SCALE_DEFAULT);
         	ImageIcon i3 = new ImageIcon(i2);
             JLabel imageLabel = new JLabel(i3);

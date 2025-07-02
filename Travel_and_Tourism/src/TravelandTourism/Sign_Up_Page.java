@@ -95,22 +95,24 @@ public class Sign_Up_Page extends JFrame implements ActionListener {
         imagePanel.setLayout(null);
         imagePanel.setBackground(Color.WHITE);
         imagePanel.setBounds(585, 0, 315, 500); // 35% of 900 = 315px
-        add(imagePanel);
-
         try { 
-            // Load and scale the image
-        	ImageIcon imageIcon = new ImageIcon(getClass().getResource("/assets/Login.png"));
+            // Correct way - fix the typo and use relative path
+            ImageIcon imageIcon = new ImageIcon(ClassLoader.getSystemResource("assests/Login.png"));
             Image scaledImage = imageIcon.getImage().getScaledInstance(300, 300, Image.SCALE_SMOOTH);
             ImageIcon scaledIcon = new ImageIcon(scaledImage);
 
             JLabel imageLabel = new JLabel(scaledIcon);
-            imageLabel.setBounds(7, 100, 300, 300); // Centered image
-            imagePanel.add(imageLabel);
+            imageLabel.setBounds(7, 100, 300, 300);
+            add(imageLabel);
+            
         } catch (Exception e) {
             JLabel errorLabel = new JLabel("Image not found", JLabel.CENTER);
             errorLabel.setBounds(50, 200, 200, 30);
             imagePanel.add(errorLabel);
+            e.printStackTrace(); // This will show you the exact error
         }
+        
+        add(imagePanel);
 
         setVisible(true);
     }
